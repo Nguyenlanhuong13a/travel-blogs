@@ -1,0 +1,15 @@
+This is a placeholder file. In a real application, you would have actual image files here.
+
+For example:
+- kyoto.jpg
+- kyoto-thumb.jpg
+- ha-giang.jpg
+- ha-giang-thumb.jpg
+- bangkok-food.jpg
+- bangkok-food-thumb.jpg
+- fansipan.jpg
+- fansipan-thumb.jpg
+- about.jpg
+- team1.jpg
+- team2.jpg
+- team3.jpg
