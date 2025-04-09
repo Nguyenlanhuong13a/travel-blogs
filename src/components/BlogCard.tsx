@@ -2,20 +2,22 @@ import { Link } from 'react-router-dom';
 import './BlogCard.css';
 
 interface BlogCardProps {
-  id: number;
+  id?: number;
   slug: string;
   title: string;
   date: string;
   author: string;
   excerpt: string;
   imageUrl: string;
+  category?: string;
 }
 
-const BlogCard = ({ id, slug, title, date, author, excerpt, imageUrl }: BlogCardProps) => {
+const BlogCard = ({ slug, title, date, author, excerpt, imageUrl, category = 'Du lịch' }: BlogCardProps) => {
   return (
     <div className="blog-card">
       <div className="blog-card-image">
         <img src={imageUrl} alt={title} />
+        <span className="blog-card-category">{category}</span>
       </div>
       <div className="blog-card-content">
         <h2 className="blog-card-title">
